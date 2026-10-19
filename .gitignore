@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.idea/
+.env
+.env.*
+!.env.example
+test-results/
+playwright-report/
+blob-report/
