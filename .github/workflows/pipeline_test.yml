@@ -28,7 +28,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          python -m pip install pytest pytest-playwright pytest-html pytest-bdd pytest-xdist
+          python -m pip install pytest pytest-playwright pytest-html pytest-bdd pytest-xdist selenium pandas
 
       - name: Install Playwright browsers
         run: python -m playwright install --with-deps chromium
